@@ -17,7 +17,7 @@ function submitForm(){
         return;
     }
 
-    alert("Result Submitted Successfully!");
+    alert("looo ninu pakka foool hogo innu bandilla 🤣🤣");
 
 }
 
