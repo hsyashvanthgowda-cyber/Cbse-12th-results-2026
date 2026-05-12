@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CBSE Results 2025</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="top-bar">
+        CBSE
+    </div>
+
+    <div class="sub-title">
+        Class XII Results 2025
+    </div>
+
+    <div class="form-box">
+
+        <label>Roll Number</label>
+        <input type="text" id="roll" placeholder="Enter Roll Number">
+
+        <label>School Number</label>
+        <input type="text" id="school" placeholder="Enter School Number">
+
+        <label>Admit Card ID</label>
+        <input type="text" id="admit" placeholder="Enter Admit Card ID">
+
+        <label>Security Pin</label>
+
+        <div class="captcha-box">
+            <div class="captcha" id="captchaText">P25JM0</div>
+            <input type="text" id="captchaInput" placeholder="Enter Security Pin">
+        </div>
+
+        <div class="buttons">
+            <button class="submit-btn" onclick="submitForm()">Submit</button>
+            <button class="reset-btn" onclick="resetForm()">Reset</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © CBSE Results Portal
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
