@@ -128,8 +128,12 @@ button{
   font-family: Arial, sans-serif;
 }
 
-body {
-  background: #ffffff;
+body{
+    background:#f2f2f2;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-height:100vh;
 }
 
 .cbse-banner {
@@ -140,6 +144,14 @@ body {
   align-items: center;
   padding: 15px 30px;
   flex-wrap: wrap;
+}
+
+.cbse-banner{
+    margin-bottom:30px;
+}
+
+.container{
+    margin-top:0;
 }
 
 .left-box {
